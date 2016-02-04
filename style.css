@@ -1,0 +1,60 @@
+/* Styles go here */
+
+.letters-list {
+  padding-top: 20px;
+  background-color: #f9f9f9;
+}
+
+.letters-list li {
+  cursor: pointer;
+}
+
+.letter-fullview {
+  padding: 20px;
+}
+
+.container-fluid .letters-list .jumbotron {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container-fluid .letters-list .jumbotron:last-child {
+  margin-bottom: 10px;
+}
+
+.container-fluid .letters-list .jumbotron h4 {
+  margin: 0 0 10px;
+}
+
+.container-fluid .letters-list .jumbotron p {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.container .letter-fullview .jumbotron, 
+.container-fluid .letter-fullview .jumbotron {
+  padding: 20px;
+}
+
+.container .letter-fullview .jumbotron h2, 
+.container-fluid .letter-fullview .jumbotron h2 {
+  margin: 10px 0 25px;
+}
+
+.bs-callout {
+    padding: 10px;
+    margin: 0 -20px 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+.bs-callout-info {
+    border-left-color: #1b809e;
+}

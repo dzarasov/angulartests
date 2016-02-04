@@ -1,0 +1,14 @@
+<div>
+  <div class="col-sm-4 col-sm-offset-2 col-md-2 col-md-offset-1 letters-list  sidebar">
+    <span style="">activeFolder - {{lettersCtrl.activeFolder}} - {{lettersCtrl.letters.length}}</span>
+    <ul class="list-unstyled">
+      <letter-short-view 
+          ng-repeat="letter in lettersCtrl.letters" 
+          letter="letter" 
+          ui-sref="letter({ letterId: letter.id })">
+      </letter-short-view>
+    </ul>
+  </div>
+  
+  <div ui-view></div>
+</div>
